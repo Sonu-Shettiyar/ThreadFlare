@@ -1,0 +1,20 @@
+.container>div p:first-child{
+  font-weight: 500;
+  color: black;
+  margin-bottom: 30px;
+}
+.container>div p{
+    cursor: pointer;
+    padding: 5px 30px 5px 5px;
+}
+.container>div p:hover{
+   background-color: beige;
+   color: black;
+   font-weight: 500;
+}
+
+.container>div p:first-child:hover{
+  background-color: white;
+}
+
+

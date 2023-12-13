@@ -1,0 +1,14 @@
+.main-div{
+   font-size: 15px; 
+}
+.topfooter-img{
+   margin-top: 5px;
+    width: 30px;
+    margin-right: 20px;
+}
+.topfotter-p{
+    color: rgba(0, 0, 0, 0.652);
+}
+.details-div h3{
+    font-weight: 600;
+}

@@ -1,0 +1,24 @@
+.card-container:hover{
+    width: 96%;
+
+}
+
+.card-container{
+    width:97%;
+    padding-bottom: 18px;
+    border-radius: 0px;
+}
+
+.incons{
+    background-color: white;
+    margin-top: -65px;
+    margin-left: 80%;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: 100;
+}
+.incons:hover{
+
+    background-color: rgba(255, 0, 0, 0.522);
+}
+

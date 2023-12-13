@@ -1,0 +1,13 @@
+.menu-item{
+    background-color: white;
+    border:none;
+    font-size:15px;
+    padding:15px;
+}
+.menu-item:hover{
+    background-color: beige;
+}
+
+.Men-Section:hover{
+    border-bottom: 2px solid black;
+}
