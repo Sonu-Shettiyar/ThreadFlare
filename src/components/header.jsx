@@ -22,31 +22,24 @@ function Header() {
                 <div style={{ display: "flex" }}>
                     <Link to={"https://www.facebook.com/koovs"}>
                         <div style={{ display: "flex" }}>
-                            <ImFacebook style={{ width: "20px", height: "20px" }} />
-                            <p style={{ marginRight: "20px" }}>1.5M Followers</p>
+                            <ImFacebook style={{ width: "20px", height: "20px", marginRight: "10px" }} />
+                            <p style={{ marginRight: "20px" }}>2.5M Followers</p>
                         </div>
                     </Link>
                     <Link to={"https://www.instagram.com/koovsfashion/"}>
                         <div style={{ display: "flex" }}>
-                            <FaInstagram style={{ width: "20px", height: "20px", marginRight: "10px" }}/>
-                            <p>628k Followers</p>
+                            <FaInstagram style={{ width: "20px", height: "20px", marginRight: "10px" }} />
+                            <p>998k Followers</p>
                         </div>
                     </Link>
                 </div>
                 <div style={{ marginLeft: "-210px" }}>
-                    <p>Open doors to a world of fashion | Young and fresh</p>
+                    <p>Welcome to a realm of fashion possibilities | Dynamic and youthful</p>
 
                 </div>
 
                 <div style={{}}>
-                    <Menu>
-                        <MenuButton as={Button} bgColor="white" _hover={{ backgroundColor: "white" }} p={0} style={{ height: "10px", fontWeight: "300", fontSize: "14px" }} rightIcon={<ChevronDownIcon />}>
-                            English
-                        </MenuButton>
-                        <MenuList>
-                            <MenuItem >English</MenuItem>
-                        </MenuList>
-                    </Menu>
+                    <><span>English </span><ChevronDownIcon /></>
                 </div>
             </div>
 
@@ -54,9 +47,4 @@ function Header() {
     )
 }
 
-export default Header
-
-// style={{ marginTop: "15px", paddingRight: "10px" }}
-// style={{ marginTop: "15px", paddingRight: "10px" }}
-
-// style={{ border: "none", marginTop: "15px", fontSize: "16px" }}
+export default Header;

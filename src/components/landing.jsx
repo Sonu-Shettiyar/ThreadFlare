@@ -14,8 +14,8 @@ function LandingPage() {
         <>
             <Navbar/>
             <TopSection />
-            <MiddlesectionWomen />
             <MiddlesectionMen />
+            <MiddlesectionWomen />
             <Versity />
             <Artist />
             <Shoes />

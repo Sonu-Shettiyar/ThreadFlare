@@ -225,7 +225,7 @@ function WomenProduct() {
                             <MenuItem onClick={(e)=>dispatch({type:"asc",payload:e.target.value})} value={"asc"}>Price, low to high</MenuItem>
                             <MenuItem onClick={(e)=>dispatch({type:"desc",payload:e.target.value})} value={"desc"}>Price, high to low</MenuItem>
                             <Divider />
-                            <MenuItem onClick={(e)=>dispatch({type:"reset"})}>Reaset  <RepeatIcon ml={130} mt={1}/></MenuItem>
+                            <MenuItem onClick={(e)=>dispatch({type:"reset"})}>Reset  <RepeatIcon ml={130} mt={1}/></MenuItem>
                         </MenuList>
                     </Menu>
                 </Box>

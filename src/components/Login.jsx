@@ -50,24 +50,24 @@ function Login() {
         <Box>
             <Navbar />
             <Heading fontWeight={"500"} textAlign={"center"} mt={39}>Login</Heading>
-            <Box width={"60%"} display={"flex"} margin={"auto"} mt={"50px"} borderRadius={"10px"} p={10} boxShadow={"rgba(0, 0, 0, 0.16) 0px 1px 4px"}>
+            <Box width={"60%"} display={"flex"} margin={"auto"} mt={"50px"} bgColor={'#4250691f'} gap='50px' borderRadius={"10px"} p={10} boxShadow={"rgba(209, 199, 199, 0.16) 2px 5px 4px 5px"}>
                 <Box>
                     <Image src="https://i.pinimg.com/736x/ec/fb/9f/ecfb9ffd184bceec03b3c19161eee7fd.jpg" />
                 </Box>
                 <Box width={"60%"}>
-                    <Image width={"50%"} display={"block"} margin={"auto"} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo7kHT9XYYCnVNBIrKcz7Z-b3mwtnJj-0y_tsgvEc0k8WdHVJA4T2jskYT6nElVcskZpY&usqp=CAU" />
+                    <Image width={"40%"} display={"block"} borderRadius='50%' margin={"auto"} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo7kHT9XYYCnVNBIrKcz7Z-b3mwtnJj-0y_tsgvEc0k8WdHVJA4T2jskYT6nElVcskZpY&usqp=CAU" />
                     <FormControl mt={30}>
-                        <FormLabel>Email address</FormLabel>
+                        <FormLabel>Email</FormLabel>
                         <Input type='email' placeholder="Enter your Email" onChange={(e) => setEmail(e.target.value)} />
-                        {/* <FormHelperText>We'll never share your email.</FormHelperText> */}
                         <FormLabel mt={5}>Password</FormLabel>
                         <Input type='password' placeholder="Enter your Password" onChange={(e) => setPassword(e.target.value)} />
                         <Button display={"block"} bgColor={"black"} onClick={handleLogin} color={"white"} margin={"auto"} mt={"50px"}>Submit</Button>
-                        <Text mt={6} textAlign={"center"}>Not have a account? <Link to={"/signup"}>Sign up</Link></Text>
                     </FormControl>
                 </Box>
 
+
             </Box>
+            <Text mt={6} textAlign={"center"}>Don't have an account ? <Link to={"/signup"}>Create new</Link></Text>
         </Box>
     )
 }
